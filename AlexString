@@ -6,29 +6,27 @@ In one operation, he can select any one character among the at most first K char
 
 Help Alex find the string X.
 
-Input format
+Input format :
 
 The first line consists of a string of length N
 The second line consists of an integer K.
-Output format
+
+Output format :
 
 Print the lexicographically minimum string that can be formed using the above operation.
 
-Sample Input
-hackerearth
-3
-Sample Output
-aceheakrhrt
-Explanation
+Sample Input :
+
+>>hackerearth
+>>3
+
+Sample Output :
+
+>>aceheakrhrt
+
+Explanation:
+
 First you can select 'a' from "hackerearth". Now the string X becomes "a" and string S becomes "hckerearth".
-
 Now after applying the operation again, the string X becomes "ac" and the string S becomes "hkerearth".
-
 Similarly after applying the operation n times, the string X becomes "aceheakrhrt".
 
-Note: Your code should be able to convert the sample input into the sample output. However, this is not enough to pass the challenge, because the code will be run on multiple test cases. Therefore, your code must solve this problem statement.
-Time Limit: 1.0 sec(s) for each input file
-Memory Limit: 256 MB
-Source Limit: 1024 KB
-Marking Scheme: Marks are awarded if any testcase passes
-Allowed Languages: Java, Java 8
